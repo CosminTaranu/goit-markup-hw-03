@@ -1,0 +1,75 @@
+:root{
+    background: #fff;
+    --primary-color: #2e2f42;
+    --secondary-color: #434455;
+    --button-color: #4d5ae5;
+    --optional-color: #f4f4fd;
+    --text-font-family: "Roboto", sans-serif;
+    --logo-font-family: "Raleway", sans-serif;
+}
+a{
+    text-decoration:none;
+}
+.portofolio-body {
+    font-family: var(--text-font-family);
+    color:var(--primary-color);
+}
+.portofolio-nav li {
+    list-style-type:none;
+}
+.logo-color .first-half {
+    font-family: var(--logo-font-family);
+    color: var(--button-color);
+}
+.logo-color .second-half{
+    font-family: var(--logo-font-family);
+    color: var(--primary-color);
+}
+.portofolio-main button {
+    cursor:pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: var(--button-color);
+}
+.portofolio-main button:hover {
+    color:  #fff
+    
+}
+.portofolio-main li {
+    list-style-type: none;
+}
+.portofolio-section, h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:var(--primary-color);
+}
+
+.portofolio-section, p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--secondary-color);
+}
+
+.porotofolio-section,  li {
+    list-style-type: none;
+}
+.footer-proprieties .logo-color .second-half {
+    color: var(--optional-color);
+}
+.footer-proprieties {
+    background-color: var(--primary-color) ;
+}
+.footer-proprieties  p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--optional-color);
+}

@@ -1,0 +1,120 @@
+ :root{
+        background: #fff;
+        --primary-color: #2e2f42;
+        --secondary-color: #434455;
+        --button-color: #4d5ae5;
+        --optional-color: #f4f4fd;
+        --text-font-family: "Roboto", sans-serif;
+        --logo-font-family: "Raleway", sans-serif;
+    }
+    
+}
+.global-body {
+    font-family: var(--text-font-family);
+    color: var(--primary-color);
+}
+.global-body h1,  h2{
+    text-align: center;
+}
+.logo-color .first-half {
+    font-family: var(--logo-font-family);
+    color: var(--button-color);
+}
+.logo-color .second-half{
+    font-family: var(--logo-font-family);
+    color: var(--primary-color);
+}
+a{
+    text-decoration:none;
+}
+.footer-proprieties .logo-color .second-half {
+    color: var(--optional-color);
+}
+.nav-bar{
+    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.nav-bar li{
+    list-style-type: none;
+}
+.nav-bar , a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--secondary-color);
+}
+.main h1 {
+    background-color: var(--primary-color);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+.main  button{
+    cursor:pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--button-color);
+}
+.main .features , h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--primary-color);
+}
+
+.main .features, p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--secondary-color);
+}
+
+.main h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    color: var(--primary-color);
+}
+.our-team {
+    background-color: var(--optional-color);
+}
+.our-team, h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--primary-color);
+}
+.our-team , p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--secondary-color);
+}
+.our-team li{
+    list-style-type: none;
+}
+.footer-proprieties {
+    background-color: var(--primary-color) ;
+}
+.footer-proprieties  p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--optional-color);
+
+}
+
