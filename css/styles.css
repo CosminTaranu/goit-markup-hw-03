@@ -24,6 +24,10 @@
     font-family: var(--logo-font-family);
     color: var(--primary-color);
 }
+.logo-color{
+    margin-left:156px;
+    margin-right: 1169;
+}
 a{
     text-decoration:none;
 }
@@ -39,6 +43,7 @@ a{
 }
 .nav-bar li{
     list-style-type: none;
+
 }
 .nav-bar , a{
     font-weight: 400;
@@ -62,6 +67,9 @@ a{
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--button-color);
+}
+.features ul{
+    list-style-type: none;
 }
 .main .features , h3{
     font-weight: 500;
@@ -118,3 +126,116 @@ a{
 
 }
 
+
+.container-header {
+    display: flex;
+    justify-content: space-around;
+    width: 1440px;
+    height: 72px;
+    align-items: center;
+    
+}
+.header-ul{
+    display: flex;
+    justify-content: space-between;
+    width:261px;
+    height: 24px;
+    margin-right: 332px;
+    
+}
+.logo-color{
+    margin-left: 156px;
+    margin-right: 76px;
+}
+.tel{
+    margin-right:156px;
+    margin-left:40px;
+}
+.container-hero {
+    width:1440px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+}
+.container-hero button {
+    width: 169px;
+    height: 56px;
+    padding: 16px 32px;
+    background: var(--button-color);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 48px 163px 0px 164px;
+}
+
+.container-features{
+    width: 1128px;
+    height: 104px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 120px 156px;
+    padding: 0;
+    
+}
+
+.container-about li{
+    list-style-type: none;
+    
+}
+.container-about ul{
+    width: 1128px;
+    height: 412px;
+    display: flex;
+    justify-content: space-around;
+    margin: 72px 156px 0px 156px;
+    padding: 0;
+}
+.container-about h2{
+   margin: 0 545px;
+    width: 350px;
+    height: 40px;
+}
+
+.container-team{
+    background-color: var(--optional-color);
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 732px;
+}
+.container-team ul{
+    width: 1128px;
+    height: 380px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0px 156px 120px 156px;
+}
+.container-team h2{
+    width: 170px;
+    height: 40px;
+    margin: 120px 635px 72px ;
+}
+.container-team h3, p {
+    display: flex;
+    justify-content: center;
+}
+.container-team li{
+    background-color: #fff;
+}
+.footer-proprieties {
+    width: 1440px;
+    height: 312px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.footer-proprieties p{
+    margin-left:156px;
+}

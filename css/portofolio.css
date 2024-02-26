@@ -13,9 +13,15 @@ a{
 .portofolio-body {
     font-family: var(--text-font-family);
     color:var(--primary-color);
+   
 }
+
 .portofolio-nav li {
     list-style-type:none;
+    color: var(--primary-color);
+}
+.portofolio-nav , a{
+    color: var(--secondary-color);
 }
 .logo-color .first-half {
     font-family: var(--logo-font-family);
@@ -42,6 +48,7 @@ a{
     list-style-type: none;
 }
 .portofolio-section, h3 {
+    padding:0 16px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -50,6 +57,7 @@ a{
 }
 
 .portofolio-section, p {
+    padding: 0 16px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -72,4 +80,128 @@ a{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--optional-color);
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1440px;
+    height: 72px;
+    border-bottom: 1px solid #e7e9fc;
+}
+.header-ul{
+    display: flex;
+    justify-content: space-between;
+    width:261px;
+    height: 24px;
+    margin-right: 332px;
+    
+}
+.logo-color{
+    height: 24px;
+    margin-left: 156px;
+    margin-right: 76px;
+}
+.tel{
+    margin-right:156px;
+    margin-left:40px;
+}
+.container-main{
+    width: 586px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    margin: 96px 427px 55px 427px;
+    gap: 0 24px;
+}
+.all-button{
+    border-radius: 4px;
+    padding: 12px 24px;
+    width: 69px;
+    height: 48px;
+    background: #404bbf;
+    color:#fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
+}
+.Web-Site-button{
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
+    padding: 12px 24px;
+    width: 119px;
+    height: 48px;
+    background:var(--optional-color);
+}
+.App-button{
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
+    padding: 12px 24px;
+    width: 78px;
+    height: 48px;
+    background: #f4f4fd;
+    background:var(--optional-color);
+}
+.Design-button{
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
+    padding: 12px 24px;
+    width: 101px;
+    height: 48px;
+    background: var(--optional-color);
+}
+.Marketing-button{
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
+    padding: 12px 24px;
+    width: 126px;
+    height: 48px;
+    background:var(--optional-color);
+}
+.portofolio-section-one{
+    width: 1128px;
+    height: 420px;
+    margin: 72px 156px 48px;
+    display: flex;
+    justify-content: center;
+}
+.portofolio-section-two{
+    width: 1128px;
+    height: 420px;
+    margin: 48px 156px;
+    display: flex;
+    justify-content: center;
+}
+.portofolio-section-three{
+    width: 1128px;
+    height: 420px;
+    margin: 48px 156px 120px;
+    display: flex;
+    justify-content: center;
+}
+.portofolio-section-one li{
+    border: 1px solid #e7e9fc;
+    
+    margin-right: 24px;
+}
+.portofolio-section-two li{
+    border: 1px solid #e7e9fc;
+    
+    margin-right: 24px;
+}
+.portofolio-section-three li{
+    border: 1px solid #e7e9fc;
+    
+    margin-right: 24px;
+}
+
+.footer-proprieties {
+    width: 1440px;
+    height: 312px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.footer-proprieties p{
+    margin-left:156px;
 }
