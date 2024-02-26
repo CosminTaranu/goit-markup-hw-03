@@ -68,7 +68,12 @@ a{
 .porotofolio-section,  li {
     list-style-type: none;
 }
-.footer-proprieties .logo-color .second-half {
+.footer-logo-color .first-half {
+    font-family: var(--logo-font-family);
+    color: var(--button-color);
+}
+.footer-logo-color .second-half{
+    font-family: var(--logo-font-family);
     color: var(--optional-color);
 }
 .footer-proprieties {
@@ -193,14 +198,7 @@ a{
     
     margin-right: 24px;
 }
-.footer-logo-color .first-half {
-    font-family: var(--logo-font-family);
-    color: var(--button-color);
-}
-.footer-logo-color .second-half{
-    font-family: var(--logo-font-family);
-    color: var(--optional-color);
-}
+
 .footer-logo-color {
     width: 115px;
     height: 24px;
